@@ -1,0 +1,10 @@
+Task,Start Date,End Date,Depends On
+Requirements Gathering,2025-04-10,2025-04-14,
+System Design,2025-04-15,2025-04-22,Requirements Gathering
+Frontend Development,2025-04-23,2025-05-10,System Design
+Backend Development,2025-04-23,2025-05-12,System Design
+Integration,2025-05-13,2025-05-18,Frontend Development;Backend Development
+Testing,2025-05-19,2025-05-25,Integration
+Deployment,2025-05-26,2025-05-27,Testing
+Staff Training,2025-05-28,2025-05-30,Deployment
+Maintenance,2025-06-01,2025-07-01,Deployment
